@@ -17,19 +17,20 @@
 <div id="container">
     <form id="contact" action="geenidee.php" method="post">
         <fieldset>
-            <input placeholder="Naam" type="text" tabindex="1" required autofocus>
+            <input id="voornaam" placeholder="naam" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
-            <input placeholder="Straatnaam + Huisnummer" type="text" tabindex="2" required>
-            <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Toon tekst in alert</button>
-            </fieldset>
+            <input id="achternaam"placeholder="achternaam" type="text" tabindex="2" required>
         </fieldset>
         </form>
+        <div>
+            <button id="button"> Alert</button>
         </div>
-    
+        </div>
+
 
 
 </body>
+<script src="assets/js/java.js"></script>
 </html>
 
